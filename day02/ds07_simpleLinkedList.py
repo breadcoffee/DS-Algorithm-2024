@@ -38,3 +38,5 @@ if __name__=='__main__':
         node = Node(data) # 두번째 값(정연)이 들어있음
         prev.link = node
         memory.append(node)
+
+    printNodes(head)
