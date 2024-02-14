@@ -43,7 +43,7 @@ def pop():
     
 # 스택 최종 데이터 확인함수
 def peek():
-    global SIZE, stack, top
+    global stack, top
     if isStackEmpty() == True:
         print('스택이 비었습니다')
         return None
@@ -51,7 +51,7 @@ def peek():
         return stack[top]
     
 # 전역 변수 선언
-SIZE = 50
+SIZE = 10
 stack = [None for _ in range(SIZE)]
 top = -1
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     for url in urls:
         push(url)
         webbrowser.open('https://www.{url}')
-        print(url, end=' ==> ')
+        print(url, end=' --> ')
         time.sleep(1)
 
     print('방문종료')
@@ -74,7 +74,7 @@ if __name__ == '__main__':
         if url == None: break
 
         webbrowser.open(f'https://www.{url}')
-        print(url, end=' ==> ')
+        print(url, end=' --> ')
         time.sleep(1)
 
     print('방문종료')
