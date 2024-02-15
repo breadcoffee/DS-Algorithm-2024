@@ -35,7 +35,6 @@ def deQueue():
         return None
     else:
         front += 1
-        rear -= 1
         data = queue[front]
         queue[front] = None
         return data
