@@ -32,29 +32,29 @@ def enQueue(data):
         print('큐가 가득찼습니다')
         return
     else: 
-        rear += 1
+        rear = (rear+1) % SIZE
         queue[rear] = data
 
 # Queue 데이터 추출 함수
 def deQueue():
-    global queue, front
+    global SIZE, queue, front, rear
     if isQueueEmpty() == True:
         print('큐가 비어있습니다')
         return None
     else:
-        front += 1
+        front = (front+1) % SIZE
         data = queue[front]
         queue[front] = None
         return data
     
 # 추출데이터 확인함수
 def peek():
-    global queue, front
+    global SIZE, queue, front, rear
     if isQueueEmpty() == True:
         print('큐가 비어있습니다.')
-        return None
+        return
     else:
-        return queue[front+1]
+        return queue[(front+1) % SIZE]
 
 # 전역변수
 SIZE = 5 # 대문자는 상수(constant)
@@ -72,6 +72,7 @@ if __name__ == '__main__':
         elif select.lower() == 'd':
             data = deQueue()
             print(f'추출 데이터 > {data}')
+            print(f'큐 상태 : {queue}')
         elif select.lower() == 'p':
             data = peek()
             print(f'확인데이터 > {data}')
