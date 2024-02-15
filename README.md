@@ -23,11 +23,12 @@
 
     - 큐 : First In First Out(FIFO)
     
-    ![queue](https://github.com/breadcoffee/DS-Algorithm-2024/blob/main/images/Queue.png)
+    ![queue](https://raw.githubusercontent.com/breadcoffee/DS-Algorithm-2024/main/images/Queue.png)
 
 
 ## 4일차
 - 파이썬 자료구조
+    - 큐 복습
     - 트리
     - 그래프
 
