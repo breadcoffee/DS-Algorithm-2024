@@ -23,7 +23,7 @@
 
     - 큐 : First In First Out(FIFO)
     
-    ![queue](https://upload.wikimedia.org/wikipedia/commons/6/6d/QUEUE.png)
+    ![queue](/images/Queue.png)
 
 
 ## 4일차
