@@ -23,7 +23,7 @@
 
     - 큐 : First In First Out(FIFO)
     
-    ![queue](/images/Queue.png)
+    ![queue](https://github.com/breadcoffee/DS-Algorithm-2024/blob/main/images/Queue.png)
 
 
 ## 4일차
