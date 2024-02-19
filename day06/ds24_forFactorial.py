@@ -15,3 +15,4 @@ def factorial(num):
     return num * factorial(num-1)
 
 print(f'10! = {factorial(10)}')
+# 재귀호출 1000이 넘으면 RecursionError: maximum recursion depth exceeded로 재귀호출 최고 깊이를 초과한다.
