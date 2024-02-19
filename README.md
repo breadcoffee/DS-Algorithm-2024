@@ -40,13 +40,16 @@
 ## 5일차
 - 파이썬 자료구조/알고리즘
     - 그래프
-    - 재귀호출
-    - 정렬 알고리즘
-    - 검색
+    
+    ![그래프](https://github.com/breadcoffee/DS-Algorithm-2024/blob/main/images/graph02.png?raw=true)
 
 ## 6일차
 - 파이썬 자료구조/알고리즘
     - 재귀호출
-    
+    - 정렬
+
 ## 7일차
-- 
+- 파이썬 자료구조/알고리즘
+    - 검색
+
+- 코딩 테스트
