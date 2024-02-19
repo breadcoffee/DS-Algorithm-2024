@@ -52,7 +52,7 @@
         - 버블정렬 Bubble Sort : 기준값 기준으로 제일 큰값을 뒤로 보내는 정렬 > O(n^2)
         - 퀵정렬   Quick Sort : 기준값 기준으로 작은 값 그룹과 큰 값 그룹으로 분리한 뒤 재귀호출하며 정렬 > O(nlogn)
 
-    ![정렬](https://github.com/breadcoffee/DS-Algorithm-2024/blob/main/images/sorthig.jpg?raw=true)
+        ![정렬](https://github.com/breadcoffee/DS-Algorithm-2024/blob/main/images/sorthig.jpg?raw=true)
 
 ## 7일차
 - 파이썬 자료구조/알고리즘
